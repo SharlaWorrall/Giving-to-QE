@@ -1,0 +1,111 @@
+.navbar {
+background-color:#071c2c;
+color: white;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+h1 {
+text-align: center;
+padding-bottom: 20px;
+min-width: 800px;  
+font-size: 55px; 
+color: #ae9957; 
+font-family:soleil; 
+}
+
+h4{
+font-size: 20px;
+}
+
+
+.logo {
+text-align: left; 
+max-width: 200px; 
+height: auto;
+padding-left:10px; 
+padding-top: 30px; 
+}
+
+.founder-img{
+width: 40%;
+}
+
+
+
+.Founder-text {
+font-style: italic;
+font-weight: bold;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 60px;
+width: 60%;
+font-family: 'Times New Roman', Times, serif;
+color: #ae9957;
+}
+
+.option1 {
+    margin-bottom:80px;
+    margin-top:80px;
+}
+
+.option2 {
+    margin-bottom: 80px;
+}
+
+.option3 {
+    margin-bottom:80px;
+}
+
+.button{
+font-family: soleil;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+padding:10px 20px;
+border: 2px solid #ae9957;
+letter-spacing: 3px;
+display: inline-block;
+background-color:#071c2c;
+color: #ae9957;
+}
+
+.button:hover{
+background-color:#ae9957;
+color: white;
+} 
+
+.Robert {
+max-height: 300px;
+max-width: auto;
+display: block;
+margin: 30px auto;
+border: 5px solid #ae9957;
+
+    
+    }
+
+.Music {
+max-width: 500px;
+height: auto;
+display: block;
+margin: 30px auto;
+border: 5px solid #ae9957;
+
+
+}
+
+
+li {
+margin-left: 40px;
+}
+
+.projects {
+display: block;
+font-family:soleil;
+font-size: 20px;
+
+text-align: center;
+
+}

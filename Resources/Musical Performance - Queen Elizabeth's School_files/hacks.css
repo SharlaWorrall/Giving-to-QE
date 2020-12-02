@@ -1,0 +1,46 @@
+
+.main-footer-section .contact-section {
+	margin-bottom: 0px!important;
+}
+
+.main-footer-section .contact-section .social-media {
+	padding-top: 25px;
+}
+
+.main-footer-section .contact-section .social-media svg {
+	margin-bottom: 0px!important;
+	max-width: 100px;
+	width: 45px;
+    height: 45px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+	.main-footer-section .contact-section .social-media svg:hover .st5 {
+	  fill: #FFFFFF;
+	}
+
+@media (min-width: 1024px) {
+	.main-footer-section .contact-section .social-media svg {
+	    margin-bottom: 0px!important;
+	    width: 40px;
+    	height: 40px;
+    	margin-right: 4px;
+    	margin-left: 4px;
+	}
+	.main-footer-section .contact-section .social-media {
+		padding-top: 10px;
+	}
+	.main-footer-section .logo-section svg {
+		margin-bottom: 70px;
+	}
+}
+
+
+@media (max-width: 1220px) {
+	.footer-nav {
+		font-size: 14px;
+	}
+}
+
+
