@@ -1,10 +1,60 @@
+/* NavBar & Intro  */
+
 .navbar {
 background-color:#071c2c;
 color: white;
 font-size: 16px;
-margin-bottom: 20px;
+margin: 0;
 width: auto;
 }
+
+.logo {
+    text-align: left; 
+    max-width: 250px; 
+    height: auto;
+    padding-left:10px; 
+    padding-top: 30px; 
+    font-weight: 400;
+    }
+
+.intro {
+    background-color: #ae9957;
+    color:#071c2c;
+    font-size-adjust: 20px;
+    width: auto;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.highlight{
+    color:white;
+    font-family: soleil;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font:italic;
+}
+
+/* Divs */
+.option1 {
+    margin-bottom:80px;
+    margin-top:80px;
+    text-align:center;
+}
+
+/* Projects */
+   
+.projects {
+    color:#071c2c;
+    margin-left:auto;
+    margin-right:auto;   
+    display:block;
+    width:80%;
+    font-family:soleil;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 h1 {
 text-align: center;
@@ -13,63 +63,35 @@ min-width: 800px;
 font-size: 55px; 
 color: #ae9957; 
 font-family:soleil; 
+margin: 0;
 }
+h3 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #071c2c;
+    }
 
-h4{
+h4 {
 font-size: 20px;
+text-align: center;
+color: #071c2c;
 }
 
 
-.logo {
-text-align: left; 
-max-width: 200px; 
-height: auto;
-padding-left:10px; 
-padding-top: 30px; 
-}
-
-.founder-img{
-width: 40%;
-}
-
-
-
-.Founder-text {
-font-style: italic;
-font-weight: bold;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 60px;
-width: 60%;
-font-family: 'Times New Roman', Times, serif;
-color: #ae9957;
-}
-
-.option1 {
-    margin-bottom:80px;
-    margin-top:80px;
-}
-
-.option2 {
-    margin-bottom: 80px;
-}
-
-.option3 {
-    margin-bottom:80px;
-}
-
-.button{
+.button {
 font-family: soleil;
-font-size: 14px;
-line-height: 24px;
+font-size: 20px;
+line-height: 20px;
 text-transform: uppercase;
-padding:10px 20px;
+padding:20px 30px;
 border: 2px solid #ae9957;
 letter-spacing: 3px;
-display: inline-block;
 background-color:#071c2c;
 color: #ae9957;
+text-decoration: none;
+text-align: center;
+margin-bottom:40px;
 }
 
 .button:hover{
@@ -77,15 +99,7 @@ background-color:#ae9957;
 color: white;
 } 
 
-.Robert {
-max-height: 300px;
-max-width: auto;
-display: block;
-margin: 30px auto;
-border: 5px solid #ae9957;
-
-    
-    }
+/*Capital Projects*/
 
 .Music {
 max-width: 500px;
@@ -93,20 +107,117 @@ height: auto;
 display: block;
 margin: 30px auto;
 border: 5px solid #ae9957;
+}
+/* 1573 Club */
+.Robert {
+    max-height: 300px;
+    max-width: auto;
+    display: block;
+    margin: 30px auto;
+    border: 5px solid #ae9957;
+}
+.founder-img{
+    width: 40%;
+    }
+    
+    .Founder-text {
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ae9957;
+    }
+/*Other */
 
-
+.Giftaid{
+    max-width: 500px;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+    border: 5px solid #ae9957;
 }
 
+/*Legacy*/
 
-li {
-margin-left: 40px;
-}
-
-.projects {
+/*Sponsorship*/
+    .Sports{
+max-width: 500px;
+height: auto;
 display: block;
-font-family:soleil;
-font-size: 20px;
+margin: 30px auto;
+border: 5px solid #ae9957;
+}
 
-text-align: center;
+/*Subsid pages*/
+
+
+
+
+/* 1573 Club Page */
+.club{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display:block;
+    width: 45%;
+}
+
+.option2{
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: soleil;
+    font-size: 20px;
+}
+
+
+/* Payment Page */
+
+a:hover{
+    background-color:#ae9957;
+    color: white;
+}
+    
+    
+.payment {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:block;
+    width: 6%;
+    font-size: 20px;
+}
+
+
+
+/* Legacy*/
+
+.iht {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+  }
+
+  .iht td, .iht th {
+    border: 2px solid #071c2c;
+    padding: 8px
+    
+  }
+
+.iht th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#ae9957;
+  color: white;
+
+}
+
+
 
 }
